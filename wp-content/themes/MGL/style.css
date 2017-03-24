@@ -1,0 +1,128 @@
+/* 
+Template Name: MGL
+Author: Ryan Murray
+Description: The site for MGL 2017
+*/
+
+@import 'fonts.css';
+
+body {
+    font-family: 'franklin_gothic_fsbook', 'Arial', sans-serif;
+    color: #63635f;
+}
+
+strong, h1, h2, h3, h4, .main-nav li {
+    font-family: 'franklin_gothic_fsdemi', 'Arial', sans-serif;   
+}
+
+div.header {
+    padding: 20px 0;
+}
+
+div.slideshow {
+    margin-bottom: 40px;
+}
+
+div.slide {
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.navbar-toggle .icon-bar {
+    background:#000;
+}
+
+.navbar-toggle {
+    border: 1px solid #ccc;
+    margin:20px;
+}
+
+div.slide-text-bg {
+    background: rgba(0,0,0,0.3);
+    padding: 20px;
+    margin-top: 200px;
+    color: #fff;
+}
+
+div.slide-text-bg h2 {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.navbar {
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+}
+
+.navbar-nav a {
+    color: #63635f;
+}
+
+.navbar-collapse {
+    padding: 10px 25px 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.center-header {
+    text-align: center;
+    overflow: hidden;
+}
+
+.center-header h2 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    display: inline-block;
+    padding: 0 15px;
+    position: relative;
+    background: #fff;
+    z-index: 1;
+}
+
+.projectsGrid img {
+    margin-bottom: 30px;
+}
+
+.process .panel {
+    min-height: 300px;
+    position: relative;
+}
+
+hr.heading-through {
+    position: absolute;
+    width: 97.7%;
+    background: #63635f;
+    height: 6px;
+    margin: 0;
+    padding: 0;
+    top: 13px;
+    border: none;
+}
+
+.footer {
+    width: 100%;
+    background: #444;
+    color #fff;
+    padding: 20px 0;
+}
+
+.footer div.row {
+    color:#fff;
+}
+
+@media only screen and (max-width : 768px) {
+
+    div.slide {
+        height:300px;
+    }
+    
+    hr.heading-through {
+        width: 100%;
+        left: 0;
+    }
+    
+}
