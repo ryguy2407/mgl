@@ -15,6 +15,29 @@ strong, h1, h2, h3, h4, .main-nav li {
     font-family: 'franklin_gothic_fsdemi', 'Arial', sans-serif;   
 }
 
+div.imageWrapper {
+    position: relative;
+}
+
+h4.caption {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    background: rgba(0,0,0,0.5);
+    padding: 10px;
+    width: 100%;
+    margin: 0;
+}
+
+div.projectsGrid div.image, div.fullGallery div.image {
+    margin-bottom:30px;
+}
+
+div.calloutBox h4.callout {
+    font-family: 'franklin_gothic_fsbook', 'Arial', sans-serif;
+    line-height:1.4;
+}
+
 div.header {
     padding: 20px 0;
 }
@@ -83,10 +106,6 @@ div.slide-text-bg h2 {
     z-index: 1;
 }
 
-.projectsGrid img {
-    margin-bottom: 30px;
-}
-
 .process .panel {
     min-height: 300px;
     position: relative;
@@ -103,6 +122,36 @@ hr.heading-through {
     border: none;
 }
 
+div.contactBox {
+    margin-top: -490px;
+    background: rgba(255,255,255,0.9);
+    padding:20px;
+}
+
+div.pageHeader {
+    padding: 40px 0;
+    position: relative;
+}
+
+div.pageHeader div.overlay {
+    background: rgba(0,0,0,0.4);
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+}
+
+div.pageHeader h1 {
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.page {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 .footer {
     width: 100%;
     background: #444;
@@ -114,6 +163,10 @@ hr.heading-through {
     color:#fff;
 }
 
+.row  .row {
+    margin: 0px -15px;
+}
+
 @media only screen and (max-width : 768px) {
 
     div.slide {
@@ -123,6 +176,17 @@ hr.heading-through {
     hr.heading-through {
         width: 100%;
         left: 0;
+    }
+    
+    div.contactBox {
+        margin-top: 0px;
+        background: none;
+        padding: 0 20px;
+        margin: 0px 0 40px 0;
+    }
+    
+    div#map {
+        display:none;
     }
     
 }
